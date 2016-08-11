@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #f6f6f6;
+}
+.center-content{background:#fff;}
+.padd15{padding:15px}
+#search-box input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cfcfcf -moz-use-text-color #cfcfcf #cfcfcf;
+    border-image: none;
+    border-radius: 3px 0 0 3px;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    padding: 10px 15px 9px 15px;
+	vertical-align:top;
+	color:#323232
+}
+#search-box button{
+	background:#EB9C00;
+	padding:10px 10px 9px 10px;
+	color:#fff;
+	font-size:22px;
+	border:none;
+	border-radius:0 3px 3px 0;
+}
+#search-box {
+    margin: 20px 0;
+}
+.foot1 .container {
+    background: #EB9C00 none repeat scroll 0 0;
+    color: #fff;
+    padding: 15px 0 10px;
+}
+.foot1 a{color:#fff;font-size:16px;margin:0 10px;}
+footer .container{background:#666666;color:#fff;font-size:14px;padding:15px 15px 10px;line-height:24px;}
+
